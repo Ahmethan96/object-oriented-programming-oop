@@ -1,0 +1,9 @@
+from prettytable import PrettyTable
+table = PrettyTable()
+table.add_column("name",["ibrahim","sumeyye","rukiye"])
+table.add_column("surname",["ahmethan","ahmethan","ahmethan"])## .add_column is accessing to a method associated to the object
+print(table)
+
+table.align = "l" # .align is accessing to an attribute of "f which is filed"
+print(table)
+
